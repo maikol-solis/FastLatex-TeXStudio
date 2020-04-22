@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "Normal",
+    "shortcut": "",
+    "tag": [
+        "\\mathcal{N}\\left(%|,\\right)"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)nn"
+}

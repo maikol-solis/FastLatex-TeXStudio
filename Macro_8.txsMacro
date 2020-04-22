@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "display equation",
+    "shortcut": "",
+    "tag": [
+        "\\begin{equation*}",
+        "%|",
+        "\\end{equation*}"
+    ],
+    "trigger": "dm"
+}

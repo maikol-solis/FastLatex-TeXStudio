@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Pregunta",
+    "shortcut": "",
+    "tag": [
+        "\\begin{pregunta}{}{}",
+        "%|",
+        "\\end{pregunta}"
+    ],
+    "trigger": "bpp"
+}

@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "bar",
+    "shortcut": "",
+    "tag": [
+        "\\bar{%|}"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)bar"
+}

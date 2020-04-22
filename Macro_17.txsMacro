@@ -1,0 +1,17 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "hat",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "env = triggerMatches[1]",
+        "txt = \"\\\\hat{\"+env+\"}\"",
+        "cursor.insertText(txt)"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])hat"
+}

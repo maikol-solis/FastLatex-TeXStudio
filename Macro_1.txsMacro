@@ -1,0 +1,18 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "fraction",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "env = triggerMatches[1]",
+        "txt = \"\\\\frac{\"+env+\"}{}\"",
+        "cursor.insertText(txt)",
+        "cursor.movePosition(1, cursorEnums.PreviousCharacter)"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)((\\d+)|(\\d*)(\\\\)?([A-Za-z]+)((\\^|_)(\\{\\d+\\}|\\d))*)/"
+}

@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "ldots",
+    "shortcut": "",
+    "tag": [
+        "\\ldots"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)(\\.\\.\\.)"
+}

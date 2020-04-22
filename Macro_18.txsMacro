@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "hat",
+    "shortcut": "",
+    "tag": [
+        "\\hat{%|}"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)hat"
+}

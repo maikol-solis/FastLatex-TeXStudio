@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "xi",
+    "shortcut": "",
+    "tag": [
+        "x_{i}"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)xi"
+}

@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "\\sigma",
+    "shortcut": "",
+    "tag": [
+        "\\sigma "
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)sgm"
+}

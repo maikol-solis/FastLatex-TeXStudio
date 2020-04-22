@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "left| right|",
+    "shortcut": "",
+    "tag": [
+        "\\left\\vert %| \\right\\vert "
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)\\|lr"
+}

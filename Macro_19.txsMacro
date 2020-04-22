@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "fast latex",
+    "name": "Expectation",
+    "shortcut": "",
+    "tag": [
+        "\\mathrm{E}\\left[%|\\right]"
+    ],
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)ee"
+}
