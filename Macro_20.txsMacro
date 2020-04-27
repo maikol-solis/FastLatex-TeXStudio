@@ -8,7 +8,7 @@
     "name": "&=",
     "shortcut": "",
     "tag": [
-        "&="
+        "&= "
     ],
     "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)=="
 }

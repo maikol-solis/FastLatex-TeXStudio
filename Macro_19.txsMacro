@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "Expectation",
+    "name": "Variance",
     "shortcut": "",
     "tag": [
-        "\\mathrm{E}\\left[%|\\right]"
+        "\\mathrm{Var}\\left(%|\\right)"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)ee"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)vv"
 }

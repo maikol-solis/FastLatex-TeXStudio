@@ -10,7 +10,7 @@
     "tag": [
         "%SCRIPT",
         "env = triggerMatches[1]",
-        "txt = \"\\\\bar{\"+env+\"}\"",
+        "txt = \"\\\\overline{\"+env+\"}\"",
         "cursor.insertText(txt)"
     ],
     "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])bar"

@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Nota",
+    "shortcut": "",
+    "tag": [
+        "\\begin{nota}{}{}",
+        "%|",
+        "\\end{nota}"
+    ],
+    "trigger": "bnn"
+}

@@ -4,13 +4,15 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "",
-    "name": "Nota",
+    "menu": "fast latex",
+    "name": "auto subscript 2",
     "shortcut": "",
     "tag": [
-        "\\begin{nota}{}{}",
-        "%|",
-        "\\end{nota}"
+        "%SCRIPT",
+        "letter = triggerMatches[1]",
+        "number = triggerMatches[2]",
+        "txt = letter + \"_{\" + number + \"}\"",
+        "cursor.insertText(txt)"
     ],
-    "trigger": "bnn"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([A-Za-z])_(\\d\\d)"
 }

@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": ">=",
+    "name": "<=",
     "shortcut": "",
     "tag": [
-        "\\geq "
+        "\\leq "
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)>="
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)<="
 }

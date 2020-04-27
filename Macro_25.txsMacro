@@ -4,13 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "",
-    "name": "Pregunta",
+    "menu": "fast latex",
+    "name": "\\sigma^2",
     "shortcut": "",
     "tag": [
-        "\\begin{pregunta}{}{}",
-        "%|",
-        "\\end{pregunta}"
+        "\\sigma^{2}"
     ],
-    "trigger": "bpp"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)sgm"
 }

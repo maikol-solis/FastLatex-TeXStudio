@@ -5,10 +5,14 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "xi",
+    "name": "sum",
     "shortcut": "",
     "tag": [
-        "x_{i}"
+        "%SCRIPT",
+        "env = triggerMatches[1]",
+        "txt = \"\\\\sum_{\"+env+\"=}^{n}\"",
+        "cursor.insertText(txt)",
+        "cursor.movePosition(5, cursorEnums.PreviousCharacter)"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)xi"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])sum"
 }

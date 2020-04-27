@@ -4,13 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "",
-    "name": "Cuidado",
+    "menu": "fast latex",
+    "name": "-> annotated",
     "shortcut": "",
     "tag": [
-        "\\begin{cuidado}{}{}",
-        "%|",
-        "\\end{cuidado}"
+        "\\xrightarrow{%|}"
     ],
-    "trigger": "bcc"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)xto"
 }

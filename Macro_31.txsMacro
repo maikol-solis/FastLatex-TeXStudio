@@ -5,14 +5,13 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "auto subscript",
+    "name": "mathbb",
     "shortcut": "",
     "tag": [
         "%SCRIPT",
         "letter = triggerMatches[1]",
-        "number = triggerMatches[2]",
-        "txt = letter + \"_{\" + number + \"}\"",
+        "txt = \"\\\\mathbb{\" + letter + \"}\"",
         "cursor.insertText(txt)"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([A-Za-z])([ijn\\d])"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])bb"
 }

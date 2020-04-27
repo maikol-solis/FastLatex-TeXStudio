@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Cuidado",
+    "shortcut": "",
+    "tag": [
+        "\\begin{cuidado}{}{}",
+        "%|",
+        "\\end{cuidado}"
+    ],
+    "trigger": "bcc"
+}

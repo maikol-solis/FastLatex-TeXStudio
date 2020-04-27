@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "left( right)",
+    "name": "left [ right]",
     "shortcut": "",
     "tag": [
-        "\\left( %| \\right)"
+        "\\left[ %| \\right] "
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)lr"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)\\[lr"
 }

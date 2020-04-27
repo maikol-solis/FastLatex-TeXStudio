@@ -4,13 +4,14 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "",
-    "name": "Tarea",
+    "menu": "fast latex",
+    "name": "mathcal",
     "shortcut": "",
     "tag": [
-        "\\begin{tarea}{}{}",
-        "%|",
-        "\\end{tarea}"
+        "%SCRIPT",
+        "letter = triggerMatches[1]",
+        "txt = \"\\\\mathcal{\" + letter + \"}\"",
+        "cursor.insertText(txt)"
     ],
-    "trigger": "btt"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])cal"
 }

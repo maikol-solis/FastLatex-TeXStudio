@@ -8,7 +8,7 @@
     "name": "\\sigma",
     "shortcut": "",
     "tag": [
-        "\\sigma "
+        "\\sigma"
     ],
     "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)sgm"
 }

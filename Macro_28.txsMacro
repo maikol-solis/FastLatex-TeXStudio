@@ -4,13 +4,11 @@
         ""
     ],
     "formatVersion": 1,
-    "menu": "",
-    "name": "Ejemplo",
+    "menu": "fast latex",
+    "name": "->",
     "shortcut": "",
     "tag": [
-        "\\begin{ejemplo}{}{}",
-        "%|",
-        "\\end{ejemplo}"
+        "\\to"
     ],
-    "trigger": "bee"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)to"
 }

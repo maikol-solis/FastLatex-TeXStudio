@@ -8,7 +8,7 @@
     "name": "bar",
     "shortcut": "",
     "tag": [
-        "\\bar{%|}"
+        "\\overline{%|}"
     ],
     "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)bar"
 }

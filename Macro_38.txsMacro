@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Ejemplo",
+    "shortcut": "",
+    "tag": [
+        "\\begin{ejemplo}{}{}",
+        "%|",
+        "\\end{ejemplo}"
+    ],
+    "trigger": "bee"
+}

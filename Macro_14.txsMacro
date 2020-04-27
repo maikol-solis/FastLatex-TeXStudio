@@ -5,14 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "sum",
+    "name": ">=",
     "shortcut": "",
     "tag": [
-        "%SCRIPT",
-        "env = triggerMatches[1]",
-        "txt = \"\\\\sum_{\"+env+\"=}^{n}\"",
-        "cursor.insertText(txt)",
-        "cursor.movePosition(5, cursorEnums.PreviousCharacter)"
+        "\\geq "
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])sum"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)>="
 }

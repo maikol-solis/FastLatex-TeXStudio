@@ -5,10 +5,12 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "\\mu",
+    "name": "Chunk",
     "shortcut": "",
     "tag": [
-        "\\mu"
+        "<<>>=",
+        "%|",
+        "@"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)mu"
+    "trigger": "cnk"
 }

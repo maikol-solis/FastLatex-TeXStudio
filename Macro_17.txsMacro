@@ -8,10 +8,7 @@
     "name": "hat",
     "shortcut": "",
     "tag": [
-        "%SCRIPT",
-        "env = triggerMatches[1]",
-        "txt = \"\\\\hat{\"+env+\"}\"",
-        "cursor.insertText(txt)"
+        "\\hat{%|}"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)([a-zA-Z])hat"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)hat"
 }

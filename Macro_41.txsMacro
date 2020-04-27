@@ -1,0 +1,16 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Laboratorio",
+    "shortcut": "",
+    "tag": [
+        "\\begin{laboratorio}{}{}",
+        "%| ",
+        "\\end{laboratorio}"
+    ],
+    "trigger": "bll"
+}

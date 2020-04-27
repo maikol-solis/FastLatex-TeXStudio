@@ -5,10 +5,10 @@
     ],
     "formatVersion": 1,
     "menu": "fast latex",
-    "name": "hat",
+    "name": "Expectation",
     "shortcut": "",
     "tag": [
-        "\\hat{%|}"
+        "\\mathbb{E}\\left[%|\\right]"
     ],
-    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)hat"
+    "trigger": "(?highlighted-as:numbers,math-delimiter,math-keyword)ee"
 }
